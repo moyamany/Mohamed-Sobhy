@@ -22,4 +22,9 @@ abstract class AppImageAssets {
   static const String wallyPaper = "assets/projectsCovers/wallpaper.webp";
   static const String stackMindLogo =
       "assets/playListCovers/stack_mind_logo.png";
+
+  static const String linkedInIcon = "assets/icons/linkedin.png";
+  static const String githupIcon = "assets/icons/github.png";
+  static const String emailIcon = "assets/icons/mail.png";
+  static const String phoneIcon = "assets/icons/telephone.png";
 }
