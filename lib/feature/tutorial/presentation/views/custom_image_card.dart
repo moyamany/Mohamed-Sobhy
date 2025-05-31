@@ -33,7 +33,10 @@ class CustomPlayListCoverVideo extends StatelessWidget {
               ),
             ),
             if (selected)
-              Center(
+              AnimatedPositioned(
+                duration:Duration(milliseconds:500),
+                right:25,
+                bottom:10,
                 child: Container(
                   width: 64,
                   height: 64,
