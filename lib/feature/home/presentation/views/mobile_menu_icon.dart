@@ -3,7 +3,8 @@ import 'package:my_portfolio/feature/home/presentation/widget/custom_bottom_shee
 import 'package:my_portfolio/feature/home/presentation/widget/my_logo_widget.dart';
 
 class MobileDrawerView extends StatelessWidget {
-  const MobileDrawerView({super.key});
+  final void Function(int) onTap;
+  const MobileDrawerView({super.key, required this.onTap});
 
   @override
   Widget build(BuildContext context) {
@@ -16,9 +17,9 @@ class MobileDrawerView extends StatelessWidget {
           const Spacer(),
           IconButton(
             onPressed: () {
-              Scaffold.of(
-                context,
-              ).showBottomSheet((context) => CustomeBottomSheetView());
+              Scaffold.of(context).showBottomSheet(
+                (context) => CustomeBottomSheetView(onTap: onTap),
+              );
             },
             icon: Icon(Icons.menu),
           ),

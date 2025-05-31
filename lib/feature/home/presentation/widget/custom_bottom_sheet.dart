@@ -3,7 +3,8 @@ import 'package:my_portfolio/core/utils/app_string.dart';
 import 'package:my_portfolio/feature/home/presentation/widget/custome_text_list_tile.dart';
 
 class CustomeBottomSheetView extends StatelessWidget {
-  const CustomeBottomSheetView({super.key});
+  final void Function(int) onTap;
+  const CustomeBottomSheetView({super.key, required this.onTap});
 
   @override
   Widget build(BuildContext context) {
@@ -19,10 +20,36 @@ class CustomeBottomSheetView extends StatelessWidget {
             icon: Icon(Icons.close),
           ),
         ),
-        CustomeTextListTile(title: AppString.about, onTap: () {}),
-        CustomeTextListTile(title: AppString.projects, onTap: () {}),
-        CustomeTextListTile(title: AppString.tutorials, onTap: () {}),
-        CustomeTextListTile(title: AppString.contact, onTap: () {}),
+        CustomeTextListTile(
+          title: AppString.about,
+          onTap: () {
+            onTap(0);
+          },
+        ),
+        CustomeTextListTile(
+          title: AppString.skills,
+          onTap: () {
+            onTap(1);
+          },
+        ),
+        CustomeTextListTile(
+          title: AppString.projects,
+          onTap: () {
+            onTap(2);
+          },
+        ),
+        CustomeTextListTile(
+          title: AppString.tutorials,
+          onTap: () {
+            onTap(4);
+          },
+        ),
+        CustomeTextListTile(
+          title: AppString.contact,
+          onTap: () {
+            onTap(5);
+          },
+        ),
       ],
     );
   }

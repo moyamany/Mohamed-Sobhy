@@ -10,7 +10,7 @@ class HomeHeaderView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return AppResponsive.isMobile(context)
-        ? MobileDrawerView()
+        ? MobileDrawerView(onTap: onTap)
         : HeaderDeskTopView(onTap: onTap);
   }
 }

@@ -14,7 +14,7 @@ class MyLogoWidget extends StatelessWidget {
       child: Text(
         AppString.msLogo,
         textScaler: TextScaler.linear(1),
-        style: TextStyle(color: AppColors.yellowPrimay, fontSize: 30),
+        style: TextStyle(color: Colors.blue, fontSize: 30),
       ),
     );
   }
