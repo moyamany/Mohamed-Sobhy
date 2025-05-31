@@ -1,3 +1,5 @@
+
+
 abstract class AppImageAssets {
   static const String flutterLogo = "assets/flutter_icon.png";
   static const String cSharpLogo = "assets/c_sharp.png";
@@ -27,4 +29,10 @@ abstract class AppImageAssets {
   static const String githupIcon = "assets/icons/github.png";
   static const String emailIcon = "assets/icons/mail.png";
   static const String phoneIcon = "assets/icons/telephone.png";
+
+  static const String binarySearcn="assets/playListCovers/Binarysearch.jpg";
+  static const String twoPointer="assets/playListCovers/twoPointer.jpg";
+  static const String frequencyArray="assets/playListCovers/frequencyArray.jpg";
+  static const String complexity="assets/playListCovers/complexityAnalysis.jpg";
+  static const String prefixSum="assets/playListCovers/Prefixsum.jpg";
 }

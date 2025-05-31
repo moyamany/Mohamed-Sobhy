@@ -14,41 +14,36 @@ class PlaylistModel {
   static List<PlaylistModel> getPlayList() {
     return [
       PlaylistModel(
-        title: "CodeForce General",
+        title: "Complexity Analysis",
         url:
-            "https://www.youtube.com/watch?v=7HuFGMlmWUw&list=PLde0K4lh-qITnW4b6VaQU04-PxGgBygOR&ab_channel=StackMind",
-        imageCover: AppImageAssets.chatApp,
-      ),
-      PlaylistModel(
-        title: "Binary Search",
-        url:
-            "https://www.youtube.com/watch?v=7HuFGMlmWUw&list=PLde0K4lh-qITnW4b6VaQU04-PxGgBygOR&ab_channel=StackMind",
-        imageCover: "",
+            "https://www.youtube.com/playlist?list=PLde0K4lh-qITlh8a3Qcbg3K9yWY-aVC1L",
+        imageCover: AppImageAssets.complexity,
       ),
       PlaylistModel(
         title: "Prefix Sum",
         url:
-            "https://www.youtube.com/watch?v=7HuFGMlmWUw&list=PLde0K4lh-qITnW4b6VaQU04-PxGgBygOR&ab_channel=StackMind",
-        imageCover: AppImageAssets.chatApp,
+            "https://www.youtube.com/playlist?list=PLde0K4lh-qIQ0QAu_j_tBKZCf0ry9kNUE",
+        imageCover: AppImageAssets.prefixSum,
       ),
       PlaylistModel(
-        title: "Standard Template Library",
+        title: "Frequency Array",
         url:
-            "https://www.youtube.com/watch?v=7HuFGMlmWUw&list=PLde0K4lh-qITnW4b6VaQU04-PxGgBygOR&ab_channel=StackMind",
-        imageCover: AppImageAssets.chatApp,
+            "https://www.youtube.com/playlist?list=PLde0K4lh-qIQaBhHY__6PLkd8QYaS_Ub5",
+        imageCover: AppImageAssets.frequencyArray,
       ),
-      // PlaylistModel(
-      //   title: "Frequency Array",
-      //   imageCover: AppImageAssets.chatApp,
-      //   url:
-      //       "https://www.youtube.com/watch?v=7HuFGMlmWUw&list=PLde0K4lh-qITnW4b6VaQU04-PxGgBygOR&ab_channel=StackMind",
-      // ),
-      // PlaylistModel(
-      //   title: "Complexity Analysis",
-      //   imageCover: AppImageAssets.chatApp,
-      //   url:
-      //       "https://www.youtube.com/watch?v=7HuFGMlmWUw&list=PLde0K4lh-qITnW4b6VaQU04-PxGgBygOR&ab_channel=StackMind",
-      // ),
+      PlaylistModel(
+        title: "Binary Search",
+        url:
+            "https://www.youtube.com/playlist?list=PLde0K4lh-qITnW4b6VaQU04-PxGgBygOR",
+        imageCover: AppImageAssets.binarySearcn,
+      ),
+       PlaylistModel(
+        title: "Two Pointer",
+        url:
+            "https://www.youtube.com/playlist?list=PLde0K4lh-qISGSi_ArLnWU1n_H2oIJ6_B",
+        imageCover: AppImageAssets.twoPointer,
+      ),
+     
     ];
   }
 }

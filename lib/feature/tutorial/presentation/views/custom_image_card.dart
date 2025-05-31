@@ -20,7 +20,6 @@ class CustomPlayListCoverVideo extends StatelessWidget {
         height: 500,
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(12),
-
           image: DecorationImage(
             image: AssetImage(model.imageCover),
             fit: BoxFit.fill,
