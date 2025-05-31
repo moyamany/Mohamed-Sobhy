@@ -13,7 +13,7 @@ class SliverGridMobileView extends StatelessWidget {
         crossAxisCount: 1,
         mainAxisSpacing: 12.0, // vertical space between items
         crossAxisSpacing: 12.0, // horizontal space between items
-        childAspectRatio: 1,
+        childAspectRatio: 0.85,
       ),
       itemCount: ProjectModel.getProjects().length,
       itemBuilder: (context, index) {
